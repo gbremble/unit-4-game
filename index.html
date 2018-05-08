@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,54 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Crystal Collector</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col" id="gameTitle">
+                <h1>Crystal Collector</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="gameInstructions">
+                <p>You will be given a random number at the start of the game.</p>
+
+                <p>There are four crystals below. By clicking on a crystal, you will add a specific
+                    amount of points to your total score.</p>
+
+                <p>You win the game by matching your total score to the assigned random number.
+                    You lose the game if your total score goes above the random number.</p>
+
+                <p>The value of each crysal is hidden from view.</p>
+
+                <p>The value of the crystals will change at the start of each game</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="randomTargetNumber">
+                00
+            </div>
+            <div class="col" id="gameWinLoss">
+                <p id="gameWins">Wins: 0</p>
+                <p id="gameLosses">Losses: 0</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="crystalImages">
+                <!-- insert the crystal images here -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="scoreboardLabel">
+                <h3>Your total score is:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="scoreboard">
+                0
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
